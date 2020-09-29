@@ -75,20 +75,26 @@ a{
 
 @media only screen and (max-width: 600px) {
   .intro-meets {
-    font-size: 3.8rem;
+    font-size: 2rem;
+    margin-left: 50px;
   }
+
+  .headline{
+    width: 100%;
+    padding: 0;
+  }
+
   .intro-fun {
     font-size: 6rem;
     max-height: 180px;
+    margin-left: 50px;
+  }
+
+  .button-projects{
+    margin-left: 50px;
   }
 
   .intro-container{
     max-height: 400px;
-  }
-}
-
-@media only screen and (max-width: 600px){
-  .headline{
-    padding-left: 60px;
   }
 }

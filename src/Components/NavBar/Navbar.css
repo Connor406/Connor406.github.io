@@ -79,12 +79,19 @@ html {
   color: rgba(48, 48, 48, 1);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   .Navbar {
     flex-direction: column;
     width: 70px;
     padding-left: 5px;
     padding-top: 20px;
+    position: fixed;
+    top: 40px;
+  }
+
+  .Top{
+    bottom: 60px;
+    right: 70px;
   }
 
   .rsvpLink{
