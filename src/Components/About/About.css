@@ -1,0 +1,58 @@
+.aboutMe {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 150px;
+  background-color: rgb(255, 255, 255);
+}
+
+.aboutMe p {
+  width: 50%;
+  padding-right: 50px;
+  margin-top: 0px;
+}
+
+.aboutMe h1 {
+  font-size: 3rem;
+  transform: rotate(270deg);
+  font-family: 'Tuesday Night';
+}
+
+.hireButtonContainer{
+  width: 100%;
+  margin-left: 35%;
+}
+
+.aboutMe .hireMeButton {
+  width: 180px;
+  font-size: 1.6rem;
+  margin-top: 20px;
+  padding: 5px 10px 5px 15px;
+  background-color: #12d8a0be;
+  box-shadow: 6px 6px 12px rgba(37, 37, 37, 0.507);
+}
+
+#hirebutton{
+  text-decoration: none;
+  color: rgba(37, 37, 37, 0.507);
+  transition: .5s;
+}
+
+#hirebutton:hover{
+  color: rgba(0, 0, 0, 0.651);
+}
+
+@font-face {
+  font-family: 'Tuesday Night';
+  src: url(../../TuesdayNight-Regular.otf);
+}
+
+@media only screen and (max-width: 600px) {
+  .aboutMe h1{
+    margin-bottom: 70%;
+    font-size: 2rem;
+    margin-left: 20px;
+  }
+}
