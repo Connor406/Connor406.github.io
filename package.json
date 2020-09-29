@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "homepage": "http://Connor406.github.io/",
+=======
+  "homepage": "https://Connor406.github.io/",
+>>>>>>> master
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
