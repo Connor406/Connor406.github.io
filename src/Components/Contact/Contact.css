@@ -30,6 +30,7 @@
   padding: 20px 0 0 0;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
+  text-decoration: none;
 }
 
 #relocate {
@@ -67,4 +68,21 @@
   .contactContainer{
     padding-left: 100px;
   }
+
+  .contactContainer h1{
+    font-size: 4rem;
+  }
+  
+  .logos svg{
+    font-size: 3rem;
+  }
+
+  .contactInfo h2{
+    font-size: 1rem;
+  }
+
+  #relocate{
+    font-size: .8rem;
+  }
+
 }

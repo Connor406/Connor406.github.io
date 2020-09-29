@@ -52,7 +52,18 @@
 @media only screen and (max-width: 600px) {
   .aboutMe h1{
     margin-bottom: 70%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-left: 20px;
   }
+
+  .aboutMe p {
+    font-size: .8rem;
+  }
+
+  .aboutMe .hireMeButton{
+    font-size: 1.2rem;
+    padding: 5px 0px 5px 25px;
+    width: 150px;
+  }
+
 }
