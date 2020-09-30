@@ -44,11 +44,6 @@
   color: rgba(0, 0, 0, 0.651);
 }
 
-@font-face {
-  font-family: 'Tuesday Night';
-  src: url(../../TuesdayNight-Regular.otf);
-}
-
 @media only screen and (max-width: 600px) {
   .aboutMe h1{
     margin-bottom: 70%;
@@ -66,4 +61,7 @@
     width: 150px;
   }
 
+@font-face {
+  font-family: 'Tuesday Night';
+  src: url(../../TuesdayNight-Regular.otf);
 }
