@@ -20,7 +20,7 @@ let projects = [
   },
   {
     name: "This website!",
-    code: '',
+    code: 'https://github.com/Connor406/Connor406.github.io',
     link: 'https://connor406.github.io',
     picSrc: './me.jpg'
   }
