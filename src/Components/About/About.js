@@ -2,10 +2,36 @@ import React from 'react';
 import './About.css';
 
 class About extends React.Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      story: "translate(-20%, 0%) rotate(270deg)"
+    };
+  }
+
+  componentDidMount = () =>{ 
+    window.addEventListener('scroll', () => {
+    let scrolled = window.scrollY;
+    console.log(scrolled);
+    if (scrolled >= 700) {
+      this.setState({
+        story: `translate(-63%, 0%) rotate(270deg)`
+      });
+    } else {
+      this.setState({
+        story: `translate(${(scrolled - 1016)/5}%, 0%) rotate(270deg)`
+      });
+    }
+    console.log(scrolled);
+  })};
+
   render() {
+
+    let styling = this.state.story;
+
     return (
       <div className='aboutMe' id='Story'>
-        <h1>Story Time</h1>
+        <h1 className='story' style={{transform: styling}} >Story Time</h1>
         <p>Greetings dear reader! My name is Connor Mahan and I'm a front-end
           developer hailing from the great northern state of Montana. While 
           working as a sales rep for a small tech company in the Bay Area, I 
