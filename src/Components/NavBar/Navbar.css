@@ -1,0 +1,121 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.Navbar {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  position: fixed;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  z-index: 20;
+  transition: .5s;
+}
+
+.Navbar.active{
+  background-color: rgba(0, 0, 0, 0.767);
+  color: rgb(255, 255, 255);
+}
+
+.text-top  {
+  color: rgba(48, 48, 48, 0.4);
+  font-size: 1rem;
+  transition: .5s;
+  text-decoration: none;
+}
+
+.text-top:hover {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.text-top.active  {
+  color: rgb(255, 255, 255);
+}
+
+.text-top.active:hover {
+  color: rgb(143, 143, 143);
+}
+
+#home-button:hover {
+  cursor: pointer;
+}
+
+.socialLinks {
+  display: flex;
+  margin-top: 15px;
+}
+
+.socialLinks a {
+  padding: 5px 10px;
+  font-size: 1.8rem;
+  transition: .8s;
+}
+
+.socialLinks a:hover {
+  transform: rotate(360deg);
+}
+
+.Top {
+  position: fixed;
+  width: 10%;
+  bottom: 20px;
+  display: flex;
+  right: 40px;
+  font-size: 2.5rem;
+  align-items: center;
+  height: 20px;
+  justify-content: flex-end;
+  z-index: 25;
+  cursor: pointer;
+  transition: 0.5s;
+  text-decoration: none;
+  color: rgba(48, 48, 48, 0.5);
+  scroll-behavior: smooth;
+}
+
+.Top:hover {
+  color: rgba(48, 48, 48, 1);
+}
+
+@media only screen and (max-width: 500px) {
+  .Navbar {
+    flex-direction: column;
+    width: 70px;
+    padding-left: 5px;
+    padding-top: 20px;
+    position: fixed;
+    top: 40px;
+  }
+
+  .Top{
+    bottom: 0%;
+    left: 10px;
+  }
+
+  .rsvpLink{
+    border: none;
+    padding: 0;
+    font-size: .8rem;
+  }
+
+  .Navbar a {
+    font-size: .8rem;
+    width: 40px;
+  }
+
+  .socialLinks {
+    flex-direction: column;
+  }
+
+  .socialLinks a {
+    font-size: 1.4rem;
+    margin-top: 5px;
+    padding-left: 0px;
+  }
+  .socialLinks a:hover{
+    transform: none;
+  }
+
+}

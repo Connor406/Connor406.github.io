@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1a4a94ca.chunk.css",
+    "main.js": "/static/js/main.5e9623d1.chunk.js",
+    "main.js.map": "/static/js/main.5e9623d1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/js/2.0757ab1c.chunk.js": "/static/js/2.0757ab1c.chunk.js",
+    "static/js/2.0757ab1c.chunk.js.map": "/static/js/2.0757ab1c.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.5a5f24aa66154a66471f88e3fe5ca67c.js": "/precache-manifest.5a5f24aa66154a66471f88e3fe5ca67c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.1a4a94ca.chunk.css.map": "/static/css/main.1a4a94ca.chunk.css.map",
+    "static/js/2.0757ab1c.chunk.js.LICENSE.txt": "/static/js/2.0757ab1c.chunk.js.LICENSE.txt",
+    "static/media/Resume.pdf": "/static/media/Resume.e868e85a.pdf",
+    "static/media/Headline.css": "/static/media/TradesmithRegular.aeb60701.otf",
+    "static/media/About.css": "/static/media/TuesdayNight-Regular.fdd10873.otf",
+    "static/media/App.css": "/static/media/pexels-life-of-pix-8892.ec67fc8b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19ccc7f6.js",
+    "static/js/2.0757ab1c.chunk.js",
+    "static/css/main.1a4a94ca.chunk.css",
+    "static/js/main.5e9623d1.chunk.js"
+  ]
+}
