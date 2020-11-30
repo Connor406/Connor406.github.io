@@ -1,6 +1,11 @@
 
 let projects = [
   {
+    name: 'Lyric Keeper',
+    link: 'https://www.lyrickeeper.com/',
+    picSrc: './lyriclogo.jpg'
+  },
+  {
     name: "Wedding website",
     code: 'https://github.com/Connor406/wedding-scrinzi/tree/master',
     link: 'https://connor406.github.io/wedding-scrinzi/',
