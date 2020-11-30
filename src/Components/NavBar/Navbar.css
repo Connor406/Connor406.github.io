@@ -90,8 +90,8 @@ html {
   }
 
   .Top{
-    bottom: 60px;
-    right: 70px;
+    bottom: 0%;
+    left: 10px;
   }
 
   .rsvpLink{
